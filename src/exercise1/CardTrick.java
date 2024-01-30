@@ -26,6 +26,7 @@ public class CardTrick {
             
             
             hand[i] = new Card(Card.SUITS[suitNum],value);
+            System.out.println(hand[i].getSuit() + " " + hand[i].getValue());
         }
 
         // insert code to ask the user for Card value and suit, create their card
